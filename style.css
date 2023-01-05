@@ -1,0 +1,18 @@
+body,html{
+    overflow-x: hidden;
+    background-color: #4F4F4F;
+
+}
+
+header{
+    background-color: #0D0D0D;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img-muse{
+    /* width: 100px; */
+    height: 9em;
+}
