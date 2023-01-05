@@ -16,3 +16,11 @@ header{
     /* width: 100px; */
     height: 9em;
 }
+
+.infos-title{
+    margin: 30px;
+}
+
+.infos-img{
+    width: 11em;
+}
