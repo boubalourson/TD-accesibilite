@@ -1,43 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MUSE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tqg3lgl.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tqg3lgl.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tqg3lgl.css">
 </head>
 
 
 <body>
     
-    <header class="row text-center">
-        <nav class="col"><a href="#">Infos</a></nav>
-        <nav class="col"><a href="#">Discographie</a></nav>
-        <nav class="col"><a href="#">Clips</a></nav>
-        <nav class="col d-none d-md-block"><a href="#">Réseaux</a></nav>
+    <header class="row text-center fixed-top">
+        <nav class="col text-light"><a href="#infos" class="text-reset text-decoration-none font-3">Infos</a></nav>
+        <nav class="col text-light"><a href="#discographie" class="text-reset text-decoration-none font-3">Discographie</a></nav>
+        <nav class="col text-light"><a href="#clips" class="text-reset text-decoration-none font-3">Clips</a></nav>
+        <nav class="col d-none d-sm-block text-light"><a href="#" class="text-reset text-decoration-none font-3">Réseaux</a></nav>
     </header>
 
 
     <div class="text-center">
-        <img src="/Assets/Autre/382046_logo.jpg" alt="Logo du groupe de rock MUSE" class="img-muse">
+        <img src="/Assets/Autre/382046_logo.jpg" alt="Logo du groupe de rock MUSE" class="img-muse mt-5">
     </div>
 
-    <section class="infos">
-        <h1 class="infos-title text-center">Infos</h1>
+    <section class="infos" id="infos">
+        <h1 class="infos-title text-center m-2 font-1 ">Infos</h1>
         
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <img src="/Assets/Autre/064d_1.jpg" alt="" class="infos-img img-fluid float-right">
+        <div class="row">
+            <div class="col-sm">
+                <img src="/Assets/Autre/064d_1.jpg" alt="" class="infos-img rounded mx-auto d-block">
+            </div>
+            <div class="col text-center text-sm-start font-1">
+                <div class="bg col mt-2 mt-sm-0 rounded rounded-3">
+                    <p class="infos-text">Genre : Rock indépendant</p>
+                </div>
+                <div class="bg-2 bg col rounded-3 mt-2">
+                    <p class="infos-text">Status : Actif</p>
+                </div>
+                <div class="bg-2 bg col rounded-3 mt-2">
+                    <p class="infos-text">Date de formation : 1994</p>
+                </div>
+                <div class="bg-2 bg col rounded-3 mt-2">
+                    <p class="infos-text">Pays : Royaume-uni</p>
+                </div>
+                <div class="bg-2 bg col rounded-3 mt-2">
+                    <p class="infos-text">Popularité : ❤❤❤</p>
                 </div>
             </div>
         </div>
 
-
+        <h2 class="m-4 text-center font-1">Biographie</h2>
         
+        <div class="row">
+            <div>
+                <p class="text-center text-light">
+                    Les débuts (1994-1998)
+                </p>
+            </div>
+            <p class="text-center  text-light lh-base">
+                Les trois artistes se sont rencontrés dans 
+                les années 1990 au Teignmouth Community 
+                College, à Teignmouth 
+                (dans le Devon, Royaume-Uni). 
+
+            </p>
+            <p class="text-center text-light lh-base">
+                Ils appartiennent alors à des formations 
+                musicales différentes. En 1992, âgés de 15 ans, ils 
+                créent le groupe Gothic Plague. 
+                Après sa création, le groupe change 
+                fréquemment de nom, comme Carnage 
+                Mayhem, Fixed Penalty, ou Rocket Baby Dolls 
+            </p>
+
+            <div class="row justify-content-center">
+                <button type="button" class="col-5 btn btn-secondary text-light">Voir plus</button>
+            </div>
+
+        </div>
+
     </section>
+
+
+    <section class="discographie" id="discographie">
+
+        <h2 class="text-center m-4 font-1">Discographie</h2>
+
+        <h3 class="text-center font-2">Albums</h3>
+
+        <div class="row">
+
+            <div class="col mt-4 text-center ml-1">
+                <img src="/Assets/Albums/Showbiz_2024.jpg" alt="Pochette d'album des MUSE qui ce nomme Showbiz" class="albums-img">
+                <div class="bg text-light w-100 rounded-2 mt-2">
+                    <p class="text-center font-2">
+                        Showbiz
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        1999
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/Origin of Symmetry_4031.jpg" alt="Pochette d'album des MUSE qui ce nomme Origin of Symmetry" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        Origin of Symmetry
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2001
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/Absolution_7814.jpg" alt="Pochette d'album des MUSE qui ce nomme Absolution" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        Absolution
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2003
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/The Resistance_9644.jpg" alt="Pochette d'album des MUSE qui ce nomme Origin of Symmetry" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        The resistance
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2009
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <button type="button" class="col-5 btn btn-secondary text-light">Voir plus</button>
+            </div>
+
+            <h3 class="text-center font-2 mt-4">Lives</h3>
+
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/Origin of Symmetry_4031.jpg" alt="Pochette d'album des MUSE qui ce nomme Origin of Symmetry" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        Origin of Symmetry
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2001
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/Absolution_7814.jpg" alt="Pochette d'album des MUSE qui ce nomme Absolution" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        Absolution
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2003
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col mt-4 text-center">
+                <img src="/Assets/Albums/The Resistance_9644.jpg" alt="Pochette d'album des MUSE qui ce nomme Origin of Symmetry" class="albums-img">
+                <div class="text-light">
+                    <p class="rounded-2 bg text-center mt-2 font-2">
+                        The resistance
+                    </p>
+                    <p class="text-center font-2 fs-1">
+                        2009
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="clips" id="clips">
+        
+        <h2 class="text-center m-4 font-1">Clips</h2>
+
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video src="/Assets/Vidéos/muse-kill-or-be-killed-official-music-video.mp4" controls class="w-100"></video>
+              </div>
+              <div class="carousel-item">
+                <video src="/Assets/Vidéos/muse-we-are-fucking-fucked-official-performance-video.mp4" controls class="w-100"></video>
+              </div>
+              <div class="carousel-item">
+                <video src="/Assets/Vidéos/muse-wont-stand-down-official-video.mp4" controls class="w-100"></video>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+
+    <footer class="">
+            <div>
+                bg
+            </div>
+
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
